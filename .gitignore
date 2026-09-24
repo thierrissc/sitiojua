@@ -1,0 +1,6 @@
+# Dependências e caches de sistema
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
