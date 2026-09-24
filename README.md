@@ -1,39 +1,39 @@
-# Sítio Juá — Itaberaba / BA 🌿🥚
+# Sitio Jua - Itaberaba / BA
 
-Landing page oficial do **Sítio Juá** (e linha de produtos **GranJuá**), localizado em Itaberaba, Bahia — Portal da Chapada Diamantina.
+Landing page oficial do Sitio Jua (e linha de produtos GranJua), localizado em Itaberaba, Bahia - Portal da Chapada Diamantina.
 
-> *Vida no sítio, família e tradição. Cuidado que se sente no sabor.*
-
----
-
-## 🌟 Sobre o Projeto
-Este projeto foi desenvolvido para apresentar a produção artesanal, agroecológica e familiar do Sítio Juá na internet, permitindo que clientes conheçam a história, os processos de manejo com respeito ao bem-estar animal e façam pedidos diretamente pelo WhatsApp.
-
-### 🚜 Produtos em Destaque
-- **Ovos Caipiras Selecionados (GranJuá)**: Ovos legítimos, frescos, com gemas vibrantes de galinhas criadas soltas e livres de estresse.
-- **Frangos Caipiras**: Aves criadas de forma tradicional com pastoreio verde e alimentação nutritiva.
-- **Hortaliças Naturais**: Verduras e legumes colhidos frescos da horta sem uso abusivo de defensivos.
-- **Cestas da Roça**: Combos especiais com os melhores produtos do sítio entregues em Itaberaba.
+> *Vida no sitio, familia e tradicao. Cuidado que se sente no sabor.*
 
 ---
 
-## 🎨 Identidade Visual
-A paleta de cores e o design foram concebidos a partir da identidade autêntica do Sítio Juá:
-- **Verde Oliva / Floresta**: `#2D5A27` e `#3D7834` (Natureza, pastagem, sustentabilidade e frescor).
-- **Marrom Terra / Tronco**: `#6F4423` e `#8B572A` (Terra, madeira, acolhimento e rusticidade).
-- **Creme Suave / Fundo Orgânico**: `#FAF7F0` e `#F3EEE3` (Leveza, aconchego do campo).
-- **Dourado Caipira**: `#E29A26` (Gemas caipiras, ipês amarelos e sol da Bahia).
+## Sobre o Projeto
+Este projeto foi desenvolvido para apresentar a producao artesanal, agroecologica e familiar do Sitio Jua, permitindo que clientes conhecam a historia, os processos de manejo com respeito ao bem-estar animal e as formas de contato e pedidos.
+
+### Produtos em Destaque
+- Ovos Caipiras Selecionados (GranJua): Ovos legitimos, frescos, com gemas vibrantes de galinhas criadas soltas e livres de estresse.
+- Frangos Caipiras: Aves criadas de forma tradicional com pastoreio verde e alimentacao nutritiva.
+- Hortalicas Naturais: Verduras e legumes colhidos frescos da horta sem uso abusivo de defensivos.
+- Cestas da Roca: Combos especiais com os melhores produtos do sitio entregues em Itaberaba.
 
 ---
 
-## 🚀 Tecnologias Utilizadas
-- **HTML5 Semântico** (acessibilidade e otimização para buscadores / SEO local em Itaberaba - BA).
-- **CSS3 Moderno** (responsividade total para celulares e computadores, layout flexbox/grid, animações suaves).
-- **JavaScript Nativo** (navegação suave, menu responsivo, FAQ interativo e integração direta com WhatsApp).
+## Identidade Visual
+A paleta de cores e o design utilizam uma base creme elegante e atemporal, com detalhes em marrom terra e verde botanico:
+- Fundo Creme: #F9F6F0 e #F2ECE1 (Elegancia, acolhimento e clareza).
+- Marrom Terra: #5A381E e #724726 (Rusticidade refinada, tronco e terra fértil).
+- Verde Floresta: #2C5523 e #3D6E32 (Frescor, pasto e sustentabilidade).
+- Dourado Suave: #D98822 (Gemas caipiras e luz natural da Bahia).
 
 ---
 
-## 📞 Contato & Redes Sociais
-- **Instagram**: [@sitiojuaitaberaba](https://www.instagram.com/sitiojuaitaberaba/)
-- **WhatsApp**: [Conversar no WhatsApp](https://wa.me/message/XUBGHJHZLUUFM1)
-- **Localização**: Itaberaba, Bahia - Brasil
+## Tecnologias Utilizadas
+- HTML5 Semantico (acessibilidade e otimizacao para buscadores em Itaberaba - BA).
+- CSS3 Moderno (design responsivo, tipografia refinada e layout estruturado).
+- JavaScript Nativo (navegacao suave, menu mobile e secao de duvidas frequentes).
+
+---
+
+## Contato e Redes Sociais
+- Instagram: @sitiojuaitaberaba (https://www.instagram.com/sitiojuaitaberaba/)
+- WhatsApp: wa.me/message/XUBGHJHZLUUFM1
+- Localizacao: Itaberaba, Bahia, Brasil
