@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <radialGradient id="leafGrad" cx="50%" cy="50%" r="50%" fx="30%" fy="30%">
+      <stop offset="0%" stop-color="#558B2F"/>
+      <stop offset="100%" stop-color="#2E5A1E"/>
+    </radialGradient>
+    <linearGradient id="trunkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8D5524"/>
+      <stop offset="100%" stop-color="#5C3314"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle soft glow optional -->
+  <circle cx="250" cy="250" r="240" fill="#FAF6EE" stroke="#E3D8C4" stroke-width="2"/>
+
+  <!-- Canopy Leaves Cluster -->
+  <g fill="url(#leafGrad)">
+    <!-- Top central leaves -->
+    <ellipse cx="250" cy="140" rx="14" ry="24" transform="rotate(0 250 140)"/>
+    <ellipse cx="230" cy="150" rx="12" ry="20" transform="rotate(-25 230 150)"/>
+    <ellipse cx="270" cy="150" rx="12" ry="20" transform="rotate(25 270 150)"/>
+    <ellipse cx="250" cy="175" rx="13" ry="22" transform="rotate(10 250 175)"/>
+    <ellipse cx="210" cy="170" rx="13" ry="21" transform="rotate(-35 210 170)"/>
+    <ellipse cx="290" cy="170" rx="13" ry="21" transform="rotate(35 290 170)"/>
+
+    <!-- Left side foliage -->
+    <ellipse cx="175" cy="180" rx="13" ry="22" transform="rotate(-50 175 180)"/>
+    <ellipse cx="150" cy="205" rx="14" ry="21" transform="rotate(-65 150 205)"/>
+    <ellipse cx="165" cy="225" rx="12" ry="20" transform="rotate(-40 165 225)"/>
+    <ellipse cx="190" cy="200" rx="13" ry="22" transform="rotate(-30 190 200)"/>
+    <ellipse cx="140" cy="235" rx="12" ry="19" transform="rotate(-75 140 235)"/>
+    <ellipse cx="180" cy="245" rx="12" ry="19" transform="rotate(-20 180 245)"/>
+
+    <!-- Right side foliage -->
+    <ellipse cx="325" cy="180" rx="13" ry="22" transform="rotate(50 325 180)"/>
+    <ellipse cx="350" cy="205" rx="14" ry="21" transform="rotate(65 350 205)"/>
+    <ellipse cx="335" cy="225" rx="12" ry="20" transform="rotate(40 335 225)"/>
+    <ellipse cx="310" cy="200" rx="13" ry="22" transform="rotate(30 310 200)"/>
+    <ellipse cx="360" cy="235" rx="12" ry="19" transform="rotate(75 360 235)"/>
+    <ellipse cx="320" cy="245" rx="12" ry="19" transform="rotate(20 320 245)"/>
+
+    <!-- Upper arc small leaves -->
+    <ellipse cx="205" cy="135" rx="10" ry="17" transform="rotate(-40 205 135)"/>
+    <ellipse cx="295" cy="135" rx="10" ry="17" transform="rotate(40 295 135)"/>
+    <ellipse cx="250" cy="108" rx="11" ry="18" transform="rotate(5 250 108)"/>
+    <ellipse cx="225" cy="118" rx="9" ry="16" transform="rotate(-20 225 118)"/>
+    <ellipse cx="275" cy="118" rx="9" ry="16" transform="rotate(20 275 118)"/>
+  </g>
+
+  <!-- Trunk / Two Caring Hands Holding Life -->
+  <g fill="url(#trunkGrad)">
+    <!-- Left Hand Branch -->
+    <path d="M 238 315 C 238 290 225 270 200 250 C 180 235 160 230 145 220 C 142 218 145 214 149 215 C 165 220 185 228 198 238 C 178 220 162 210 152 200 C 149 197 153 194 156 196 C 172 205 192 218 206 230 C 190 210 178 195 170 180 C 168 176 173 174 176 177 C 192 192 210 215 222 232 C 220 212 218 190 215 170 C 214 165 220 164 222 168 C 228 185 236 215 240 240 C 242 255 243 285 242 315 Z" />
+
+    <!-- Right Hand Branch (Mirrored) -->
+    <path d="M 262 315 C 262 290 275 270 300 250 C 320 235 340 230 355 220 C 358 218 355 214 351 215 C 335 220 315 228 302 238 C 322 220 338 210 348 200 C 351 197 347 194 344 196 C 328 205 308 218 294 230 C 310 210 322 195 330 180 C 332 176 327 174 324 177 C 308 192 290 215 278 232 C 280 212 282 190 285 170 C 286 165 280 164 278 168 C 272 185 264 215 260 240 C 258 255 257 285 258 315 Z" />
+
+    <!-- Tree Base / Roots spreading softly -->
+    <path d="M 230 310 C 235 305 245 305 250 305 C 255 305 265 305 270 310 C 275 320 280 332 288 340 C 272 338 260 335 250 335 C 240 335 228 338 212 340 C 220 332 225 320 230 310 Z" />
+  </g>
+
+  <!-- Negative Space / Central Hen Silhouette in white/cream between hands -->
+  <g fill="#FAF6EE">
+    <!-- Hen body & head nesting safely in the trunk center -->
+    <path d="M 245 285 C 242 278 245 272 250 272 C 255 272 258 278 255 285 C 258 288 262 295 260 305 C 255 308 245 308 240 305 C 238 295 242 288 245 285 Z" />
+    <polygon points="250,270 252,267 248,267" fill="#E29A26" />
+  </g>
+
+  <!-- Brand Typography -->
+  <!-- SÍTIO JUÁ -->
+  <text x="250" y="390" text-anchor="middle" font-family="'Outfit', 'Montserrat', 'Arial Black', sans-serif" font-weight="900" font-size="44" letter-spacing="3" fill="#6F4423">
+    SÍTIO <tspan fill="#3D7834">JUÁ</tspan>
+  </text>
+  
+  <!-- Subtitle Tagline -->
+  <text x="250" y="420" text-anchor="middle" font-family="'Inter', 'Arial', sans-serif" font-weight="600" font-size="14" letter-spacing="4" fill="#60665D">
+    ITABERABA • BAHIA
+  </text>
+  <text x="250" y="440" text-anchor="middle" font-family="'Inter', 'Georgia', serif" font-style="italic" font-weight="500" font-size="13" letter-spacing="1" fill="#8B572A">
+    Vida no sítio, família e tradição
+  </text>
+</svg>
