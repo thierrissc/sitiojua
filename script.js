@@ -1,11 +1,11 @@
 /**
- * Sitio Jua e GranJua
- * Interatividades e navegacao da landing page
+ * Sítio Juá e Granjuá
+ * Interatividades e navegação da landing page
  * Itaberaba, Bahia
  */
 
 document.addEventListener('DOMContentLoaded', () => {
-  // 1. Efeito de scroll no cabecalho
+  // 1. Efeito de scroll no cabeçalho
   const header = document.querySelector('.site-header');
   window.addEventListener('scroll', () => {
     if (window.scrollY > 20) {
@@ -41,31 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 3. FAQ Acordeao
-  const faqItems = document.querySelectorAll('.faq-item');
-  faqItems.forEach(item => {
-    const questionBtn = item.querySelector('.faq-button');
-    if (questionBtn) {
-      questionBtn.addEventListener('click', () => {
-        const isActive = item.classList.contains('active');
-        
-        faqItems.forEach(otherItem => {
-          otherItem.classList.remove('active');
-          const otherBtn = otherItem.querySelector('.faq-button');
-          if (otherBtn) otherBtn.setAttribute('aria-expanded', 'false');
-        });
-
-        if (!isActive) {
-          item.classList.add('active');
-          questionBtn.setAttribute('aria-expanded', 'true');
-        } else {
-          questionBtn.setAttribute('aria-expanded', 'false');
-        }
-      });
-    }
-  });
-
-  // 4. Scroll Suave para Ancoras
+  // 3. Scroll Suave para Âncoras
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
       const targetId = this.getAttribute('href');
@@ -73,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const targetElement = document.querySelector(targetId);
         if (targetElement) {
           e.preventDefault();
-          const headerOffset = 90;
+          const headerOffset = 80;
           const elementPosition = targetElement.getBoundingClientRect().top;
           const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
 
