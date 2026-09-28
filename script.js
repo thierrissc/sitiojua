@@ -1,11 +1,4 @@
-/**
- * Sítio Juá e Granjuá
- * Interatividades e navegação da landing page
- * Itaberaba, Bahia
- */
-
 document.addEventListener('DOMContentLoaded', () => {
-  // 1. Efeito de scroll no cabeçalho
   const header = document.querySelector('.site-header');
   window.addEventListener('scroll', () => {
     if (window.scrollY > 20) {
@@ -15,7 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // 2. Menu Mobile
   const mobileToggle = document.getElementById('mobileToggle');
   const navLinks = document.getElementById('navLinks');
 
@@ -41,7 +33,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 3. Scroll Suave para Âncoras
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
       const targetId = this.getAttribute('href');
@@ -49,7 +40,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const targetElement = document.querySelector(targetId);
         if (targetElement) {
           e.preventDefault();
-          const headerOffset = 80;
+          const isMobile = window.innerWidth <= 768;
+          const headerOffset = isMobile ? 20 : 80;
           const elementPosition = targetElement.getBoundingClientRect().top;
           const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
 
