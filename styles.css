@@ -459,6 +459,123 @@ ul {
   color: var(--text-secondary);
 }
 
+.granjua-section {
+  padding: 80px 0;
+  background-color: #F3EEE3;
+  border-top: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--border-light);
+}
+
+.granjua-card {
+  background-color: #FFFFFF;
+  border-radius: var(--radius-lg);
+  padding: 48px 44px;
+  box-shadow: var(--shadow-card);
+  border: 1px solid var(--border-light);
+  position: relative;
+  overflow: hidden;
+}
+
+.granjua-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(90deg, var(--color-green-primary) 0%, var(--color-brown-primary) 100%);
+}
+
+.granjua-header {
+  max-width: 680px;
+  margin-bottom: 36px;
+}
+
+.granjua-tag {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--color-green-primary);
+  background-color: var(--color-green-soft);
+  padding: 6px 14px;
+  border-radius: var(--radius-full);
+  margin-bottom: 14px;
+}
+
+.granjua-title {
+  font-family: var(--font-heading);
+  font-size: 2.1rem;
+  font-weight: 800;
+  color: var(--color-brown-primary);
+  line-height: 1.25;
+  margin-bottom: 14px;
+}
+
+.granjua-subtitle {
+  font-size: 1.02rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.granjua-features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.granjua-feature-item {
+  background-color: #FAF8F5;
+  padding: 24px 22px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-light);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.granjua-feature-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(63, 38, 19, 0.06);
+}
+
+.granjua-feature-num {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--color-green-primary);
+  margin-bottom: 8px;
+}
+
+.granjua-feature-item h4 {
+  font-family: var(--font-heading);
+  font-size: 1.08rem;
+  font-weight: 700;
+  color: var(--color-brown-primary);
+  margin-bottom: 6px;
+}
+
+.granjua-feature-item p {
+  font-size: 0.9rem;
+  color: var(--text-dark);
+  line-height: 1.55;
+}
+
+.granjua-banner-quote {
+  padding: 18px 22px;
+  background-color: var(--color-green-soft);
+  border-left: 4px solid var(--color-green-primary);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+.granjua-banner-quote p {
+  font-size: 0.94rem;
+  font-style: italic;
+  font-weight: 500;
+  color: var(--color-green-primary);
+  line-height: 1.6;
+}
+
 .products-section {
   padding: 80px 0;
   background-color: var(--bg-cream);
@@ -936,11 +1053,20 @@ ul {
   }
 
   .hero-section {
-    padding: 30px 0 44px;
+    padding: 36px 0 44px;
+    background-image: linear-gradient(rgba(249, 246, 240, 0.90), rgba(249, 246, 240, 0.94)), url('assets/images/porteira-sitio-jua.jpg');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid var(--border-light);
   }
 
   .hero-grid {
-    gap: 26px;
+    gap: 0;
+  }
+
+  .hero-image-wrap {
+    display: none;
   }
 
   .badge-location {
@@ -985,10 +1111,6 @@ ul {
     border: 1px solid var(--border-light);
   }
 
-  .hero-image-wrap {
-    aspect-ratio: 4 / 4;
-  }
-
   .about-section {
     padding: 44px 0;
   }
@@ -999,6 +1121,23 @@ ul {
 
   .about-photo-wrap {
     aspect-ratio: 4 / 4;
+  }
+
+  .granjua-section {
+    padding: 44px 0;
+  }
+
+  .granjua-card {
+    padding: 26px 18px;
+  }
+
+  .granjua-title {
+    font-size: 1.55rem;
+  }
+
+  .granjua-features {
+    grid-template-columns: 1fr;
+    gap: 14px;
   }
 
   .section-header {
