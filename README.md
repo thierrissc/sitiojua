@@ -9,8 +9,8 @@ Landing page oficial do Sítio Juá e da linha de avicultura Granjuá, localizad
 
 > *Vida no sítio, família e tradição. Cuidado que se sente no sabor.*
 
-## Sobre o Sítio Juá
-O Sítio Juá desenvolve uma produção familiar e sustentável, valorizando o respeito à terra e o bem-estar animal. As aves são criadas livres de gaiolas em pastoreio verde e sombreado, com alimentação natural e balanceada.
+## Sobre o Sítio Juá e Granjuá
+O Sítio Juá desenvolve uma produção familiar sustentável com foco primordial na avicultura Granjuá: criação de aves livres de gaiolas em pastoreio verde e sombreado, com nutrição limpa e respeito ao bem-estar animal.
 
 ## Linha de Produtos
 - Ovos Caipiras Granjuá: ovos frescos selecionados com gemas naturalmente avermelhadas e alta densidade nutricional.
