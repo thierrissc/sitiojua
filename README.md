@@ -14,9 +14,9 @@ O Sítio Juá desenvolve uma produção familiar e sustentável, valorizando o r
 
 ## Linha de Produtos
 - Ovos Caipiras Granjuá: ovos frescos selecionados com gemas naturalmente avermelhadas e alta densidade nutricional.
+- Licores Artesanais Casa Forte: infusões naturais de frutas selecionadas como maracujá, amora, tangerina e caju.
+- Hortaliças Naturais: colheitas frescas da horta sob demanda para famílias de Itaberaba e região.
 - Frangos Caipiras: criados em liberdade com desenvolvimento respeitado e sabor autêntico da roça.
-- Hortaliças Naturais: colheitas frescas sob demanda para famílias de Itaberaba e região.
-- Cestas da Roça: combinações semanais com itens frescos do sítio.
 
 ## Identidade Visual do Projeto
 - Base Principal: Creme suave (#F9F6F0 e #F3EEE3)
