@@ -19,9 +19,9 @@ O Sítio Juá desenvolve uma produção familiar sustentável com foco primordia
 - Frangos Caipiras: criados em liberdade com desenvolvimento respeitado e sabor autêntico da roça.
 
 ## Identidade Visual do Projeto
-- Base Principal: Creme suave (#F9F6F0 e #F3EEE3)
-- Destaques e Tipografia: Marrom terra (#52331B e #3F2613)
-- Acentos e Botões: Verde botânico (#2C5624 e #3D7033)
+- Base Principal: Creme acolhedor (#FAF6F0 e #FFFDF9)
+- Tipografia e Elementos Terra: Marrom Sítio (#9C5D32 e #63391A)
+- Botões e Destaques Botânicos: Verde Juá (#3D642D e #52823D)
 
 ## Tecnologias
 - HTML5 Semântico estruturado para SEO local
