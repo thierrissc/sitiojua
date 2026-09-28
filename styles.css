@@ -1,59 +1,41 @@
-/* ==========================================================================
-   Sítio Juá & Granjuá
-   Identidade visual com base creme elegante, marrom terra e verde botânico.
-   Imagens cheias com texto lateral, sem recortes artificiais.
-   ========================================================================== */
-
 :root {
-  /* Base Creme */
   --bg-cream: #F9F6F0;
   --bg-cream-soft: #F3EEE3;
   --bg-surface: #FFFFFF;
   --bg-card: #FFFFFF;
   
-  /* Marrom Terra */
   --color-brown-dark: #3F2613;
   --color-brown-primary: #52331B;
   --color-brown-medium: #704728;
   --color-brown-soft: #EDE4DA;
   --color-brown-border: #DBCFBE;
 
-  /* Verde Botânico */
   --color-green-primary: #2C5624;
   --color-green-hover: #21421A;
   --color-green-light: #3D7033;
   --color-green-soft: #E9F1E7;
   --color-green-border: #C8DDC5;
 
-  /* Cores de Texto */
   --text-main: #23201D;
   --text-secondary: #57524C;
   --text-muted: #7E766D;
   --text-light: #FAF8F5;
 
-  /* Bordas e Linhas */
   --border-light: #E7DFD1;
   --border-subtle: #F0E9DC;
 
-  /* Sombras refinadas e discretas */
   --shadow-subtle: 0 2px 10px rgba(63, 38, 19, 0.04);
   --shadow-card: 0 8px 24px rgba(63, 38, 19, 0.06);
   --shadow-hover: 0 14px 30px rgba(63, 38, 19, 0.10);
 
-  /* Raios de borda */
   --radius-sm: 6px;
   --radius-md: 14px;
   --radius-lg: 20px;
   --radius-full: 9999px;
 
-  /* Tipografia */
   --font-heading: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
-
-/* ==========================================================================
-   Reset e Estrutura Básica
-   ========================================================================== */
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -105,11 +87,6 @@ ul {
   padding: 0 24px;
 }
 
-
-/* ==========================================================================
-   Cabeçalho e Navegação
-   ========================================================================== */
-
 .site-header {
   position: sticky;
   top: 0;
@@ -130,18 +107,18 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 84px;
+  height: 80px;
 }
 
 .brand-logo {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 12px;
 }
 
 .brand-logo img {
-  width: 52px;
-  height: 52px;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
   object-fit: cover;
   border: 1px solid var(--border-light);
@@ -230,20 +207,20 @@ ul {
 .mobile-toggle {
   display: none;
   flex-direction: column;
+  justify-content: center;
   gap: 5px;
-  padding: 6px;
+  padding: 8px;
+  width: 40px;
+  height: 40px;
 }
 
 .mobile-toggle span {
+  display: block;
   width: 22px;
   height: 2px;
   background-color: var(--color-brown-primary);
   border-radius: 1px;
 }
-
-/* ==========================================================================
-   Hero Section
-   ========================================================================== */
 
 .hero-section {
   padding: 70px 0 80px;
@@ -251,7 +228,7 @@ ul {
 
 .hero-grid {
   display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
+  grid-template-columns: 1.1fr 0.9fr;
   align-items: center;
   gap: 56px;
 }
@@ -363,24 +340,22 @@ ul {
   color: var(--text-muted);
 }
 
-/* Imagem cheia e completa no Hero */
 .hero-image-wrap {
   border-radius: var(--radius-md);
   overflow: hidden;
   box-shadow: var(--shadow-card);
   border: 1px solid var(--border-light);
   background-color: #FFFFFF;
+  aspect-ratio: 4 / 5;
 }
 
 .hero-image-wrap img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
   display: block;
 }
-
-/* ==========================================================================
-   Padrão de Seções
-   ========================================================================== */
 
 .section-header {
   text-align: center;
@@ -413,10 +388,6 @@ ul {
   line-height: 1.6;
 }
 
-/* ==========================================================================
-   Seção Sobre / Nossa História: Imagem Cheia + Texto Lateral
-   ========================================================================== */
-
 .about-section {
   padding: 80px 0;
   background-color: var(--bg-surface);
@@ -431,18 +402,20 @@ ul {
   gap: 56px;
 }
 
-/* Imagem cheia e completa sem corte */
 .about-photo-wrap {
   border-radius: var(--radius-md);
   overflow: hidden;
   border: 1px solid var(--border-light);
   background-color: #FFFFFF;
   box-shadow: var(--shadow-card);
+  aspect-ratio: 4 / 5;
 }
 
 .about-photo-wrap img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
   display: block;
 }
 
@@ -485,14 +458,6 @@ ul {
   line-height: 1.5;
   color: var(--text-secondary);
 }
-
-.about-action {
-  margin-top: 8px;
-}
-
-/* ==========================================================================
-   Seção Produtos: Linhas com Imagem Cheia e Texto Lateral
-   ========================================================================== */
 
 .products-section {
   padding: 80px 0;
@@ -593,10 +558,6 @@ ul {
   font-weight: 800;
 }
 
-/* ==========================================================================
-   Seção Entregas e Pedidos
-   ========================================================================== */
-
 .order-section {
   padding: 80px 0;
   background-color: var(--bg-surface);
@@ -665,10 +626,6 @@ ul {
   font-size: 0.92rem;
   color: var(--text-secondary);
 }
-
-/* ==========================================================================
-   Seção Galeria do Sítio: Enquadramento Perfeito
-   ========================================================================== */
 
 .gallery-section {
   padding: 80px 0;
@@ -748,10 +705,6 @@ ul {
   color: var(--color-green-primary);
   border-color: var(--color-green-primary);
 }
-
-/* ==========================================================================
-   Rodapé
-   ========================================================================== */
 
 .site-footer {
   background-color: var(--color-brown-dark);
@@ -859,10 +812,6 @@ ul {
   color: #A3978B;
 }
 
-/* ==========================================================================
-   Responsividade e Otimização Mobile
-   ========================================================================== */
-
 @media (max-width: 960px) {
   .hero-grid {
     grid-template-columns: 1fr;
@@ -905,46 +854,64 @@ ul {
 
 @media (max-width: 768px) {
   .container {
-    padding: 0 18px;
+    padding: 0 16px;
+  }
+
+  .site-header {
+    position: static;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    background-color: var(--bg-cream);
+    box-shadow: none;
+    border-bottom: 1px solid var(--border-light);
   }
 
   .navbar {
-    height: 68px;
+    height: 52px;
   }
 
   .brand-logo img {
-    width: 44px;
-    height: 44px;
+    display: none !important;
+  }
+
+  .brand-logo {
+    gap: 0;
   }
 
   .brand-name {
-    font-size: 1.2rem;
+    font-size: 1.18rem;
+    letter-spacing: 0.5px;
+  }
+
+  .brand-tagline {
+    display: none;
   }
 
   .mobile-toggle {
     display: flex;
+    padding: 4px;
   }
 
   .nav-links {
-    position: fixed;
-    top: 68px;
+    position: absolute;
+    top: 52px;
     left: 0;
     width: 100%;
     background-color: #FFFFFF;
     flex-direction: column;
-    padding: 20px 24px 28px;
-    gap: 14px;
+    padding: 16px 20px 24px;
+    gap: 12px;
     border-bottom: 1px solid var(--border-light);
-    box-shadow: 0 14px 28px rgba(63, 38, 19, 0.08);
+    box-shadow: 0 12px 24px rgba(63, 38, 19, 0.08);
     transform: translateY(-150%);
     opacity: 0;
     pointer-events: none;
-    transition: all 0.3s ease;
-    z-index: 99;
+    transition: all 0.25s ease;
+    z-index: 999;
   }
 
   .nav-links a {
-    font-size: 1.05rem;
+    font-size: 1rem;
     padding: 8px 0;
     border-bottom: 1px solid var(--border-subtle);
     display: block;
@@ -962,86 +929,91 @@ ul {
   }
 
   .hero-section {
-    padding: 36px 0 50px;
+    padding: 30px 0 44px;
   }
 
   .hero-grid {
-    gap: 30px;
+    gap: 26px;
+  }
+
+  .badge-location {
+    font-size: 0.72rem;
+    padding: 4px 10px;
   }
 
   .hero-title {
-    font-size: clamp(1.85rem, 7vw, 2.3rem);
+    font-size: 1.85rem;
     line-height: 1.2;
   }
 
   .hero-description {
-    font-size: 0.98rem;
-    line-height: 1.65;
+    font-size: 0.95rem;
+    line-height: 1.6;
   }
 
   .hero-actions {
     flex-direction: column;
     width: 100%;
-    gap: 12px;
+    gap: 10px;
   }
 
   .btn-primary,
   .btn-outline {
     width: 100%;
     justify-content: center;
-    padding: 14px 20px;
-    font-size: 0.98rem;
+    padding: 13px 18px;
+    font-size: 0.95rem;
   }
 
   .hero-stats {
     grid-template-columns: 1fr;
-    gap: 10px;
-    padding-top: 18px;
+    gap: 8px;
+    padding-top: 14px;
   }
 
   .stat-item {
     background-color: #FFFFFF;
-    padding: 12px 16px;
+    padding: 10px 14px;
     border-radius: var(--radius-sm);
     border: 1px solid var(--border-light);
   }
 
   .hero-image-wrap {
-    max-height: 380px;
+    aspect-ratio: 4 / 4;
   }
 
   .about-section {
-    padding: 50px 0;
+    padding: 44px 0;
   }
 
   .about-grid {
-    gap: 28px;
+    gap: 24px;
   }
 
   .about-photo-wrap {
-    max-height: 360px;
+    aspect-ratio: 4 / 4;
   }
 
   .section-header {
-    margin-bottom: 32px;
+    margin-bottom: 28px;
   }
 
   .section-title {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
   }
 
   .products-section {
-    padding: 50px 0;
+    padding: 44px 0;
   }
 
   .products-list {
-    gap: 24px;
+    gap: 20px;
   }
 
   .product-row,
   .product-row.reverse {
-    padding: 20px 16px;
-    gap: 18px;
+    padding: 18px 14px;
+    gap: 16px;
   }
 
   .product-media {
@@ -1049,26 +1021,26 @@ ul {
   }
 
   .product-title {
-    font-size: 1.3rem;
+    font-size: 1.25rem;
   }
 
   .order-section {
-    padding: 50px 0;
+    padding: 44px 0;
   }
 
   .steps-container {
-    gap: 14px;
+    gap: 12px;
   }
 
   .step-box {
-    padding: 20px 16px;
+    padding: 18px 14px;
   }
 
   .order-contact-panel {
-    padding: 24px 18px;
+    padding: 20px 16px;
     flex-direction: column;
     text-align: center;
-    gap: 16px;
+    gap: 14px;
   }
 
   .order-contact-panel .btn-primary {
@@ -1076,23 +1048,27 @@ ul {
   }
 
   .gallery-section {
-    padding: 50px 0;
+    padding: 44px 0;
   }
 
   .gallery-grid {
     grid-template-columns: 1fr;
-    max-width: 360px;
+    max-width: 320px;
     margin: 0 auto;
-    gap: 20px;
+    gap: 18px;
+  }
+
+  .gallery-card-img {
+    aspect-ratio: 4 / 4;
   }
 
   .site-footer {
-    padding: 44px 0 24px;
+    padding: 40px 0 20px;
   }
 
   .footer-bottom {
     flex-direction: column;
     text-align: center;
-    gap: 8px;
+    gap: 6px;
   }
 }
