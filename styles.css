@@ -874,11 +874,15 @@ ul {
   }
 
   .brand-logo img {
-    display: none !important;
+    display: block !important;
+    height: 36px;
+    width: auto;
+    max-width: 44px;
+    object-fit: contain;
   }
 
   .brand-logo {
-    gap: 0;
+    gap: 8px;
   }
 
   .brand-name {
