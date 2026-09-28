@@ -418,12 +418,30 @@ ul {
 }
 
 .about-photo-wrap {
+  position: relative;
   border-radius: var(--radius-md);
   overflow: hidden;
   border: 1px solid var(--border-light);
   background-color: var(--bg-surface);
   box-shadow: var(--shadow-card);
   aspect-ratio: 4 / 5;
+}
+
+.about-photo-badge {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  background-color: rgba(250, 246, 240, 0.92);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  padding: 8px 16px;
+  border-radius: var(--radius-full);
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--color-brown-primary);
+  border: 1px solid var(--border-light);
+  box-shadow: var(--shadow-subtle);
+  pointer-events: none;
 }
 
 .about-photo-wrap img {
@@ -807,9 +825,18 @@ ul {
   transition: color 0.2s ease, border-color 0.2s ease;
 }
 
+.btn-instagram-link .highlight-insta {
+  color: var(--color-green-primary);
+  transition: color 0.2s ease;
+}
+
 .btn-instagram-link:hover {
   color: var(--color-green-primary);
   border-color: var(--color-green-primary);
+}
+
+.btn-instagram-link:hover .highlight-insta {
+  color: var(--color-green-hover);
 }
 
 .site-footer {
